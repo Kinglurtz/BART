@@ -1,0 +1,6 @@
+Whiskey & Coke, WhiskyAndCoke.jpg, 2, Whiskey, 50, Coke, 150
+High Ball, WhiskeyHighBall.png, 2, Whiskey, 50, Ginger Beer, 150
+Gin & Tonic, Gin&Tonic.png, 2, Gin, 50, Tonic, 150
+Summer Collins, SummerCollins.jpg, 3, Gin, 50, Lemonade, 75, Tonic, 75
+All-American Lemonade, Vodka&Lemonade.png, 2, Vodka, 50, Lemonade, 150
+Moscow Mule, MoscowMule.jpg, 2, Gin, 70, Ginger Beer, 130

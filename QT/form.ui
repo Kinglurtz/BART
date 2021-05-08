@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bart</class>
+ <widget class="QWidget" name="Bart">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Bart</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>480</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="HomePage">
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:black;</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QToolButton" name="Drink1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Whiskey &amp;&amp; Coke</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/WhiskyAndCoke.jpg</normaloff>Images/WhiskyAndCoke.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QToolButton" name="Drink2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>High Ball</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/WhiskeyHighBall.png</normaloff>Images/WhiskeyHighBall.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QToolButton" name="Drink3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Gin &amp;&amp; Tonic</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/Gin&amp;Tonic.png</normaloff>Images/Gin&amp;Tonic.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QToolButton" name="Drink4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Summer Collins</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/SummerCollins.jpg</normaloff>Images/SummerCollins.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QToolButton" name="Drink5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>All-American Lemonade</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/Vodka&amp;Lemonade.png</normaloff>Images/Vodka&amp;Lemonade.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QToolButton" name="Drink6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Moscow Mule</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/MoscowMule.jpg</normaloff>Images/MoscowMule.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QToolButton" name="Drink8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>NewDrink</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/Unknown Drink.png</normaloff>Images/Unknown Drink.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QToolButton" name="RandomDrink">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Random Drink</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/wheel-dice.png</normaloff>Images/wheel-dice.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QToolButton" name="Settings">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>Rockwell Extra Bold</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color : rgb(255, 255, 255);
+background-color: black;
+</string>
+       </property>
+       <property name="text">
+        <string>Settings</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>Images/settings.png</normaloff>Images/settings.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>125</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="SettingsPage">
+    <widget class="QPushButton" name="BackArrow">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Images/BackArrow.png</normaloff>Images/BackArrow.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>44</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>160</y>
+       <width>681</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="ButtonLayout">
+      <property name="horizontalSpacing">
+       <number>75</number>
+      </property>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="ChangePumpButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Rockwell Extra Bold</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;
+</string>
+        </property>
+        <property name="text">
+         <string>Change
+Pump</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>44</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="CleaningButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Rockwell Extra Bold</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;
+</string>
+        </property>
+        <property name="text">
+         <string>Run
+Cleaning</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>44</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="CustomDrinkButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Rockwell Extra Bold</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;
+</string>
+        </property>
+        <property name="text">
+         <string>Make
+Your Own
+Drink</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>44</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="TwoDrinksGUI">
+    <widget class="QPushButton" name="BackArrow_2G">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Images/BackArrow.png</normaloff>Images/BackArrow.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>44</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_1_2G">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="LiquidDisplay_1_2G">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_2_2G">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="LiquidDisplay_2_2G">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BrewButton_2G">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>370</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockwell Extra Bold</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Brew</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="ThreeDrinkGUI">
+    <widget class="QSlider" name="DrinkSlider_2_3G">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_1_3G">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackArrow_3G">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Images/BackArrow.png</normaloff>Images/BackArrow.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>44</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_1_3G">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_2_3G">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_3_3G">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_3_3G">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BrewButton_3G">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>370</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockwell Extra Bold</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Brew</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="FourDrinkGUI">
+    <widget class="QLCDNumber" name="DrinkDisplay_2_4G">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BrewButton_4G">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>370</y>
+       <width>111</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rockwell Extra Bold</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+color: white;</string>
+     </property>
+     <property name="text">
+      <string>Brew</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_2_4G">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackArrow_4G">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: black;
+border: 2px solid;
+border-color: white;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>Images/BackArrow.png</normaloff>Images/BackArrow.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>44</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_1_4G">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_3_4G">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_1_4G">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_3_4G">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLCDNumber" name="DrinkDisplay_4_4G">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>210</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="intValue" stdset="0">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QSlider" name="DrinkSlider_4_4G">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>140</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:vertical {
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 4px; right: 4px;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+}
+
+QSlider::handle:vertical {
+    height: 10px;
+    background: #1F51FF;
+    margin: 0 -4px; /* expand outside the groove */
+	border-radius: 4px;
+}
+
+QSlider::add-page:vertical {
+    background: #bc13fe;
+}
+
+QSlider::sub-page:vertical {
+    background: white;
+	opacity: 223;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="invertedAppearance">
+      <bool>false</bool>
+     </property>
+     <property name="tickPosition">
+      <enum>QSlider::NoTicks</enum>
+     </property>
+     <property name="tickInterval">
+      <number>0</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
